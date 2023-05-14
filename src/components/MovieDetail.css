@@ -1,0 +1,65 @@
+body {
+    
+    background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.alert {
+    height: 4rem;
+}
+
+.movie_detail {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.movie_card_img{
+   width: 29vw;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.details {
+    width: 55%;
+}
+.details h1{
+    margin-bottom: 2rem;
+}
+button {
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .movie_detail {
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .movie_card_img{
+       width: 50vw;
+       object-fit: cover;
+    }
+    
+    .details {
+        width: 100%;
+    }
+    .details h1{
+        margin-block: 1rem;
+        text-align: center;
+    }
+    button {
+        margin: 1rem;
+    }
+    .buttons{
+        padding-left: 2rem;
+    }
+
+}
